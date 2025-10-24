@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Samman Aryal</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com/sammangit" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com/in/sammanaryal" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:skilledsamman@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Samman Aryal 👋</h2>
+        <p> 👋 I'm passionate about <b>Mechatronics, Programming, and Game Development</b>. I love solving problems, creating designs, 
+            and editing videos that tell stories. 🌱 Currently, I’m learning <b>Web-Development</b> to expand my skills and build more 
+            creative projects. 💡 I’m always open to collaborating on exciting ideas and joining events that push my limits. 💬 Feel free
+            to reach out via email or connect with me on <b>GitHub</b>! </p>
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#MyProjects">
+            <i class="fa-solid fa-pen"></i>
+            <span>My Projects</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/hero-headshot.webp" alt="Samman Aryal">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text"> I’m passionate about crafting interactive, efficient, and user-friendly 
+        digital experiences. My core skills revolve around <b>Web Development, Programming, and Design
+        </b>. I enjoy turning ideas into real-world projects using modern technologies and best practices. </div>
+
+      <div class="cells"> 
+        <div class="cell"> 
+            <img src="images/html-logo.webp" alt="html logo"> 
+            <span>HTML</span> </div> <div class="cell"> 
+                <img src="images/css-logo.webp" alt="css logo"> 
+                <span>CSS</span> 
+            </div> 
+            <div class="cell"> 
+                    
+                <img src="images/javascript-logo.webp" alt="javascript logo"> 
+                <span>JavaScript</span> </div> 
+                <div class="cell"> 
+                    <i class="fa-brands fa-github"></i> 
+                    <span>Github</span> 
+                </div> 
+                <div class="cell"> 
+                    <i class="fa-brands fa-c">
+
+                    </i> <span>programming</span> 
+                </div> 
+            </div> 
+        </section>
+
+    <!-- SECTION 3: My Projects -->
+    <section id="MyProjects" class="MyProjects-section">
+      <h2>My Projects</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/myprojects-headshot.webp">
+        </div>
+
+        <div class="text">
+            <ul>
+                <li class = "h">Pani-Map [Hackathon Project 2025]</li>
+                After completing my +2, I got a chance to take part in a Hackathon held at Cosmos College. A map that shows public services like tap water stations, water vending machines, free Wi-Fi, and public toilets. We focused on helping people find clean and safe resources easily.
+                <li class = "h">Purif-AI [Ideathon Project 2025]</li>
+                Purif-AI is a smart, sensor-based water testing system that uses AI to predict contamination in real time, ensuring access to clean and safe drinking water for everyone.
+            </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+            Feel free to contact me on my <b> GitHub Directly or using Email Address </b> the future, I see myself diving deeper into science and technology, possibly in research or engineering.
+            I'm open to exploring fields that mix my love for science, tech, and the arts. Whatever path I choose, I aim
+            to contribute positively to society and make a difference.
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
